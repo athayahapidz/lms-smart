@@ -8,7 +8,11 @@ async function bootstrap() {
   app.setGlobalPrefix('api');
 
   app.enableCors({
-    origin: '*',
+    origin: [
+      "http://localhost:3001",
+      "https://lms-smart-web.vercel.app",
+    ],
+    credentials: true,
   });
 
   app.useGlobalPipes(
