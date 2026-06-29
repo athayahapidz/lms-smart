@@ -10,7 +10,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       "http://localhost:3001",
-      "https://lms-smart.vercel.app/",
+      "https://lms-smart-j05pdxuz6-athayahapidzs-projects.vercel.app",
     ],
     credentials: true,
   });
