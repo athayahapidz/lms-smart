@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  static const String baseUrl = 'https://magnificent-expression-production-ecbd.up.railway.app';
+  static const String baseUrl = 'http://10.110.1.213:3000/api';
 
   final Dio dio = Dio(
     BaseOptions(
